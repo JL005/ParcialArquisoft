@@ -2,6 +2,8 @@ package com.udea.parcialArquisoft.parcialArquisoft.service;
 
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
+
+import com.udea.parcialArquisoft.parcialArquisoft.DTO.InventarioDTO;
 import com.udea.parcialArquisoft.parcialArquisoft.model.Inventario;
 import com.udea.parcialArquisoft.parcialArquisoft.model.Producto;
 import com.udea.parcialArquisoft.parcialArquisoft.repository.InventarioRepositorio;
@@ -33,6 +35,5 @@ public class InventarioService {
         return productos;
     }
 
-    //POST
 
 }
