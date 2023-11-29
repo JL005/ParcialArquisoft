@@ -11,6 +11,8 @@ import jakarta.persistence.ManyToOne;
 import lombok.Getter;
 import lombok.Setter;
 import lombok.Builder;
+import lombok.NoArgsConstructor;
+import lombok.AllArgsConstructor;
 
 
 @Setter
@@ -18,6 +20,8 @@ import lombok.Builder;
 @Entity
 @Table(name="inventario")
 @Builder
+@NoArgsConstructor
+@AllArgsConstructor
 public class Inventario {
     
     @Id
